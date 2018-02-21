@@ -5,11 +5,12 @@ package elseif;
 
 import javax.swing.JOptionPane;
 import java.awt.Color;
+import java.awt.Robot;
 
 public class RobotColorChooser {
 	public static void main(String[] args) {
 		//1. Create a new Robot
-		
+		Robot r = new Robot();
 		//3. Ask the user what color they would like the robot to draw
 		
 		//5. Use an if/else statement to set the pen color that the user requested
