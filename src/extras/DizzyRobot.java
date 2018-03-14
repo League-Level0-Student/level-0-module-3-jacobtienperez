@@ -14,6 +14,7 @@ public class DizzyRobot {
 		 // 2. Ask the user how dizzy you want the robot from 1-10, then spin that number of times.
 String rob= JOptionPane.showInputDialog(null, "how many spins");
 int num=Integer.parseInt(rob);
+robot.setSpeed(999999999);
  // 1. Use the dance method to make the robot spin.
 	dance(num);
 
